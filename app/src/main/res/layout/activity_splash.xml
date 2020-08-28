@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="splashModel"
+            type="com.katana.koin.ui.splash.SplashViewModel"/>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        tools:context=".ui.splash.SplashActivity">
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/ic_ehcc"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="230dp"
+            android:textSize="14sp"
+            android:textColor="@color/activation_color"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center"
+            android:text="@string/activating_actualizing_god_s_royalty_in_you" />
+
+    </LinearLayout>
+</layout>

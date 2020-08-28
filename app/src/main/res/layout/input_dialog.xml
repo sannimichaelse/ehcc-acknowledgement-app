@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/add_new_member"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/raleway_medium"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:hint="@string/name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/raleway_medium"
+        android:background="@drawable/input_shadow"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:hint="@string/email"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/raleway_medium"
+        android:background="@drawable/input_shadow"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:hint="@string/phone_number"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/raleway_medium"
+        android:background="@drawable/input_shadow"
+        android:layout_height="wrap_content"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/addToListBtn"
+        android:layout_width="160dp"
+        android:text="@string/add_to_list"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/rounded_btn"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:fontFamily="@font/raleway_medium"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="65dp"/>
+
+</LinearLayout>

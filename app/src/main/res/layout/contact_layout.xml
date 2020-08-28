@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/circular_shape"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/initials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/initials"
+                android:textColor="@android:color/background_light" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/name"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adeniran Opeyemi" />
+            <TextView
+                android:id="@+id/email"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:layout_below="@id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="adeniranopeyemi@gmail.com" />
+            <TextView
+                android:id="@+id/phone"
+                android:textSize="11sp"
+                android:layout_below="@id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+234545433454345" />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/deleteIcon"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_width="0dp"
+            android:src="@drawable/ic_delete_24px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+  <style name="MyAppearance" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/colorPrimary</item>
+  </style>
+
+  <style name="RalewayViewStyle" parent="android:Widget.TextView">
+    <item name="android:fontFamily">@font/raleway_medium</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:layout_marginTop">20dp</item>
+  </style>
+
+  <style name="NavigationView" parent="Base.Theme.AppCompat">
+    <item name="android:listDivider">@color/colorPrimary</item>
+  </style>
+
+  <style name="MyOutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <item name="boxStrokeColor">@color/text_input_layout</item>
+    <!-- The color of the label when it is collapsed and the text field is active -->
+<!--    <item name="hintTextColor">@color/singleColor</item>-->
+    <!-- The color of the label in all other text field states (such as resting and disabled) -->
+    <item name="android:textColorHint">@color/android_text_hint</item>
+  </style>
+</resources>

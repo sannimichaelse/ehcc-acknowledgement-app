@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single" android:id="@+id/mail">
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@drawable/ic_email_black_18dp"
+            android:title="@string/send_mail" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/history">
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_18dp"
+            android:title="@string/history" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/logout">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_18dp"
+            android:title="@string/logout" />
+    </group>
+
+</menu>
